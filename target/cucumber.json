@@ -1,0 +1,55 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "A",
+        "description": "",
+        "id": "adding-below-data-to-your-excel-file-in-sheet3;a",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Go to Database and get First name and Last name of employees who works in Europe and validate with their UI information (First name, Last Name).",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Go to Excel and update column ‘Actual # of Employees’ with number of Europe employees that you get from UI.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Compare ‘Actual # of Employees’’ with ‘expected # of Employees’ and if they matched then update ‘Test Execution Status’ cell as PASSED if not match then update with FAILED.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@HRProject"
+          }
+        ]
+      }
+    ],
+    "name": "Adding below data to your excel file in Sheet3",
+    "description": "",
+    "id": "adding-below-data-to-your-excel-file-in-sheet3",
+    "keyword": "Feature",
+    "uri": "Project.feature"
+  }
+]
