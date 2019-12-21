@@ -10,7 +10,7 @@ import utilities.Driver;
 
 public class Hooks {
 
-    // This Hooks class(runs)=>>  setup method runs @Before senario  each scenario
+    // This Hooks class(runs)=>>  setup method runs @Before scenario  each scenario
     @Before  // annotations must come from cucumber.api.java  // it will run one time in the beginning before scenario stars
     public void setUp() {  // it means driver set up
 

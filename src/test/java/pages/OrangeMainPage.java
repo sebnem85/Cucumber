@@ -29,7 +29,7 @@ public class OrangeMainPage {
     @FindBy(id = "systemUser_chkChangePassword")
     public WebElement changePasswordButton;
 
-    @FindBy(id = "systemUser_password")
+     @FindBy(id = "systemUser_password")
     public WebElement newPasswordField;
 
     @FindBy(id = "systemUser_confirmPassword")

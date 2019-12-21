@@ -10,8 +10,8 @@ import org.junit.runner.RunWith; // this file is gonna run with junit.
         plugin = {"html:target/cucumberHTML-report", "pretty", "json:target/cucumber.json"},
         features ={"src/test/resources/uiFeature","src/test/resources/dbFeatures"},
         glue = "stepDefs",
-        dryRun = true,
-        tags = {"@HRProject"}   //{"@ui","@smokeTest"}//"@TECTC-1015"
+        dryRun = false,
+        tags = {"@TECTC-110"}   //{"@ui","@smokeTest"}//"@TECTC-1015"
 )
 
 public class UiTestRunner {
